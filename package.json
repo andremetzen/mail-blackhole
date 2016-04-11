@@ -1,0 +1,26 @@
+{
+  "name": "mail-blackhole",
+  "preferGlobal": false,
+  "version": "0.0.2",
+  "author": "RockPigeon <tecnico@rockpigeon.com.br>",
+  "description": "a blackhole smtp server",
+  "contributors": [ 
+    {
+      "name": "Andre Metzen",
+      "email": "metzen@conceptho.com"
+    }
+  ],
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "main": "./server.js",
+  "dependencies" : {
+    "cli":  "0.5.0",
+    "simplesmtp": "0.3.27",
+    "mailparser":  "0.4.2",
+    "express": "4.0.0"
+  },
+  "engines": {
+    "node": ">=0.6"
+  }
+}
